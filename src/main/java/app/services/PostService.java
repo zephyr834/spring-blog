@@ -5,7 +5,7 @@ import app.models.Post;
 import java.util.List;
 
 public interface PostService {
-    
+
     List<Post> findAll();
     List<Post> findLatestFive();
     Post findById(Long id);
