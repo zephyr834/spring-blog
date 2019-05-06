@@ -10,7 +10,7 @@ public class Post {
     private User author;
     private Date date = new Date();
 
-    Post(Long id, String title, String body, User author) {
+    public Post(Long id, String title, String body, User author) {
         this.id = id;
         this.title = title;
         this.body = body;

@@ -12,7 +12,7 @@ public class User {
     private String fullName;
     private Set<Post> posts = new HashSet<>();
 
-    User(Long id, String username, String fullName) {
+    public User(Long id, String username, String fullName) {
         this.id = id;
         this.username = username;
         this.fullName = fullName;
