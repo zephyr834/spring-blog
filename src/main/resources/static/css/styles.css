@@ -33,13 +33,17 @@ body>aside h2 {
 body>aside a {
   display: block;
   margin: 5px 0px;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 body>main:after {
   content: '';
   display: block;
   clear: both;
+}
+
+.title a {
+    text-decoration: none;
 }
 
 #logged-in-info {
