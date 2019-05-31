@@ -1,0 +1,6 @@
+Spring Blog Application
+
+A simple blog to login and create, read, delete blog posts.
+
+To build and run app:
+mvn spring-boot:run
